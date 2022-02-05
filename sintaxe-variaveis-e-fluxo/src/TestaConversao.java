@@ -10,6 +10,7 @@ public class TestaConversao {
 		int valor = (int) salario;
 		System.out.println(valor);
 		
+		float pontoFlutuante = 3.14f;
 		long numeroGrande = 21025185015125151l;
 		short valorPequeno = 1214;
 		byte b = 120;
