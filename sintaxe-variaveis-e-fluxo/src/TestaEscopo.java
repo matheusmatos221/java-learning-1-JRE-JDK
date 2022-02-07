@@ -6,7 +6,13 @@ public class TestaEscopo {
 		
 		int idade = 16;
 		int quantidadePessoas = 2;
-		boolean acompanhado = quantidadePessoas >= 2;
+		boolean acompanhado;
+		
+		if(quantidadePessoas>= 2) {
+			acompanhado = true;
+		} else {
+			acompanhado = false;
+		}
 		
 		if(idade>= 18 || acompanhado) {
 			System.out.println("Voce pode entrar!");
