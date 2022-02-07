@@ -5,7 +5,7 @@ public class TesteSomatoria {
 		int total = 0;
 		
 		while(contador<=10) {
-			total = total + contador;
+			total += contador;
 			contador++;			
 		}
 		System.out.println(total);
