@@ -1,6 +1,6 @@
 
 public class TestaVariaveis {
-	public static void main (String[] args) {
+	public static void main(String[] args) {
 		System.out.println("Ola, novo teste");
 		
 		int idade;
@@ -14,6 +14,7 @@ public class TestaVariaveis {
 		System.out.println(idade);
 		
 		
+		System.out.print("A idade e: " + idade + ", parabens!");
 		System.out.println("A idade e: " + idade + ", parabens!");
 
 	}
